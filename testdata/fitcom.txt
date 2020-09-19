@@ -1,0 +1,20 @@
+F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+A1=0.015
+q1=0.19
+w1=0.012
+
+F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+A2=0.005
+q2=0.15
+w2=0.06
+
+F_all(x)=F1(x)+F2(x)
+
+fit [0.07:0.3] F_all(x) "Profile1.txt" u 1:6:7 via A1,A2,q1,q2,w1,w2
+
+set xrange[0:0.35]
+set yrange[-0.001:0.025]
+set ylabel "Normalized intensity (counts/KP)"
+set xlabel "Q (A-1)"
+
+plot "Profile1.txt" u 1:6:7 w yer t '130K-300K tth=9', F1(x) t 'Bragg',F2(x) t 'diffuse',F_all(x) t 'total'

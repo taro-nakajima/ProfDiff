@@ -1,0 +1,7 @@
+2     # skip line
+0     # index of x
+1     # index of F(x)
+2     # index of Err of F(x)
+1     # Initial run number
+360000 225000    # [Monitor value 1]  [Monitor value 2]
+h1_q_run6100_0.dat  h1_q_run6094_0.dat

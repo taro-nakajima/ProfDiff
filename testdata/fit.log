@@ -1,0 +1,230 @@
+
+
+*******************************************************************************
+Wed Sep 16 17:10:28 2020
+
+
+FIT:    data read from "Profile1.txt" u 1:6:7
+        format = x:z:s
+        x range restricted to [0.0700000 : 0.300000]
+        #datapoints = 47
+function used for fitting: F_all(x)
+	F_all(x)=F1(x)+F2(x)
+	F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+	F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            A2            q1            q2            w1            w2           
+   0 4.7274959091e+02   0.00e+00  7.89e+01    1.500000e-02   5.000000e-03   1.900000e-01   1.500000e-01   1.200000e-02   6.000000e-02
+   6 1.4727562090e+02  -1.10e-01  7.89e-05    1.443341e-02   5.351159e-03   1.899949e-01   1.613703e-01   1.299208e-02   5.974422e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 147.276
+rel. change during last iteration : -1.09928e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.89528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.59209
+p-value of the Chisq distribution (FIT_P)              : 6.69464e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 0.0144334        +/- 0.0004028    (2.79%)
+A2              = 0.00535116       +/- 0.0002353    (4.398%)
+q1              = 0.189995         +/- 0.0003109    (0.1637%)
+q2              = 0.16137          +/- 0.001988     (1.232%)
+w1              = 0.0129921        +/- 0.0004236    (3.261%)
+w2              = 0.0597442        +/- 0.002029     (3.396%)
+
+correlation matrix of the fit parameters:
+                A1     A2     q1     q2     w1     w2     
+A1              1.000 
+A2             -0.393  1.000 
+q1             -0.067  0.229  1.000 
+q2             -0.322  0.492 -0.001  1.000 
+w1             -0.176 -0.560 -0.142 -0.430  1.000 
+w2              0.284 -0.711 -0.237 -0.512  0.334  1.000 
+
+
+*******************************************************************************
+Wed Sep 16 17:11:10 2020
+
+
+FIT:    data read from "Profile1.txt" u 1:6:7
+        format = x:z:s
+        x range restricted to [0.0700000 : 0.300000]
+        #datapoints = 47
+function used for fitting: F_all(x)
+	F_all(x)=F1(x)+F2(x)
+	F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+	F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            A2            q1            q2            w1            w2           
+   0 4.7274959091e+02   0.00e+00  7.89e+01    1.500000e-02   5.000000e-03   1.900000e-01   1.500000e-01   1.200000e-02   6.000000e-02
+   6 1.4727562090e+02  -1.10e-01  7.89e-05    1.443341e-02   5.351159e-03   1.899949e-01   1.613703e-01   1.299208e-02   5.974422e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 147.276
+rel. change during last iteration : -1.09928e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.89528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.59209
+p-value of the Chisq distribution (FIT_P)              : 6.69464e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 0.0144334        +/- 0.0004028    (2.79%)
+A2              = 0.00535116       +/- 0.0002353    (4.398%)
+q1              = 0.189995         +/- 0.0003109    (0.1637%)
+q2              = 0.16137          +/- 0.001988     (1.232%)
+w1              = 0.0129921        +/- 0.0004236    (3.261%)
+w2              = 0.0597442        +/- 0.002029     (3.396%)
+
+correlation matrix of the fit parameters:
+                A1     A2     q1     q2     w1     w2     
+A1              1.000 
+A2             -0.393  1.000 
+q1             -0.067  0.229  1.000 
+q2             -0.322  0.492 -0.001  1.000 
+w1             -0.176 -0.560 -0.142 -0.430  1.000 
+w2              0.284 -0.711 -0.237 -0.512  0.334  1.000 
+
+
+*******************************************************************************
+Wed Sep 16 17:11:57 2020
+
+
+FIT:    data read from "Profile1.txt" u 1:6:7
+        format = x:z:s
+        x range restricted to [0.0700000 : 0.300000]
+        #datapoints = 47
+function used for fitting: F_all(x)
+	F_all(x)=F1(x)+F2(x)
+	F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+	F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            A2            q1            q2            w1            w2           
+   0 4.7274959091e+02   0.00e+00  7.89e+01    1.500000e-02   5.000000e-03   1.900000e-01   1.500000e-01   1.200000e-02   6.000000e-02
+   6 1.4727562090e+02  -1.10e-01  7.89e-05    1.443341e-02   5.351159e-03   1.899949e-01   1.613703e-01   1.299208e-02   5.974422e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 147.276
+rel. change during last iteration : -1.09928e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.89528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.59209
+p-value of the Chisq distribution (FIT_P)              : 6.69464e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 0.0144334        +/- 0.0004028    (2.79%)
+A2              = 0.00535116       +/- 0.0002353    (4.398%)
+q1              = 0.189995         +/- 0.0003109    (0.1637%)
+q2              = 0.16137          +/- 0.001988     (1.232%)
+w1              = 0.0129921        +/- 0.0004236    (3.261%)
+w2              = 0.0597442        +/- 0.002029     (3.396%)
+
+correlation matrix of the fit parameters:
+                A1     A2     q1     q2     w1     w2     
+A1              1.000 
+A2             -0.393  1.000 
+q1             -0.067  0.229  1.000 
+q2             -0.322  0.492 -0.001  1.000 
+w1             -0.176 -0.560 -0.142 -0.430  1.000 
+w2              0.284 -0.711 -0.237 -0.512  0.334  1.000 
+
+
+*******************************************************************************
+Wed Sep 16 17:12:42 2020
+
+
+FIT:    data read from "Profile1.txt" u 1:6:7
+        format = x:z:s
+        x range restricted to [0.0700000 : 0.300000]
+        #datapoints = 47
+function used for fitting: F_all(x)
+	F_all(x)=F1(x)+F2(x)
+	F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+	F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            A2            q1            q2            w1            w2           
+   0 4.7274959091e+02   0.00e+00  7.89e+01    1.500000e-02   5.000000e-03   1.900000e-01   1.500000e-01   1.200000e-02   6.000000e-02
+   6 1.4727562090e+02  -1.10e-01  7.89e-05    1.443341e-02   5.351159e-03   1.899949e-01   1.613703e-01   1.299208e-02   5.974422e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 147.276
+rel. change during last iteration : -1.09928e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.89528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.59209
+p-value of the Chisq distribution (FIT_P)              : 6.69464e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 0.0144334        +/- 0.0004028    (2.79%)
+A2              = 0.00535116       +/- 0.0002353    (4.398%)
+q1              = 0.189995         +/- 0.0003109    (0.1637%)
+q2              = 0.16137          +/- 0.001988     (1.232%)
+w1              = 0.0129921        +/- 0.0004236    (3.261%)
+w2              = 0.0597442        +/- 0.002029     (3.396%)
+
+correlation matrix of the fit parameters:
+                A1     A2     q1     q2     w1     w2     
+A1              1.000 
+A2             -0.393  1.000 
+q1             -0.067  0.229  1.000 
+q2             -0.322  0.492 -0.001  1.000 
+w1             -0.176 -0.560 -0.142 -0.430  1.000 
+w2              0.284 -0.711 -0.237 -0.512  0.334  1.000 
+
+
+*******************************************************************************
+Wed Sep 16 17:13:41 2020
+
+
+FIT:    data read from "Profile1.txt" u 1:6:7
+        format = x:z:s
+        x range restricted to [0.0700000 : 0.300000]
+        #datapoints = 47
+function used for fitting: F_all(x)
+	F_all(x)=F1(x)+F2(x)
+	F1(x) = A1*exp(-log(2)*((x-q1)**2.0/w1**2.0))
+	F2(x) = A2*exp(-log(2)*((x-q2)**2.0/w2**2.0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            A2            q1            q2            w1            w2           
+   0 4.7274959091e+02   0.00e+00  7.89e+01    1.500000e-02   5.000000e-03   1.900000e-01   1.500000e-01   1.200000e-02   6.000000e-02
+   6 1.4727562090e+02  -1.10e-01  7.89e-05    1.443341e-02   5.351159e-03   1.899949e-01   1.613703e-01   1.299208e-02   5.974422e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 147.276
+rel. change during last iteration : -1.09928e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.89528
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.59209
+p-value of the Chisq distribution (FIT_P)              : 6.69464e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 0.0144334        +/- 0.0004028    (2.79%)
+A2              = 0.00535116       +/- 0.0002353    (4.398%)
+q1              = 0.189995         +/- 0.0003109    (0.1637%)
+q2              = 0.16137          +/- 0.001988     (1.232%)
+w1              = 0.0129921        +/- 0.0004236    (3.261%)
+w2              = 0.0597442        +/- 0.002029     (3.396%)
+
+correlation matrix of the fit parameters:
+                A1     A2     q1     q2     w1     w2     
+A1              1.000 
+A2             -0.393  1.000 
+q1             -0.067  0.229  1.000 
+q2             -0.322  0.492 -0.001  1.000 
+w1             -0.176 -0.560 -0.142 -0.430  1.000 
+w2              0.284 -0.711 -0.237 -0.512  0.334  1.000 
